@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin:0; 
+    text-align: center;
+    color: #fff;
+    font-family: 'Nucleo Outline';
+}
+.bg {
+    background-image: url("../../assets/img/background.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+	margin: auto;
+    width: 60%;
+    height: auto;
+    padding-top:100px;
+}
+.logo{
+	margin: auto;
+	margin-bottom: 10px;
+}
+h1{
+	font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 15px;
+}
+h2{
+	margin: 0;
+	font-size: 2.3em;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.btn-round {
+    background-color: #4183D7;
+    border: none;
+    color: white;
+    width: 80px;
+    padding: 15px 32px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-round:hover{
+	background: #59ABE3;
+	color: #fff;
+}
+footer{
+	margin-top: 150px;
+}
+a{
+	color: #59ABE3;
+	text-decoration: none;
+}
+a:hover{
+	color: #4183D7;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <style type="text/css">
+		.kotak{
+			width: 100px;
+			height: 100px;
+			background-color: yellow;
+		}
+	</style>
+	<!--memanggil jquery library-->
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+        
+    </head>
+    <body>
+        <div class="kotak"></div>
+
+	<br><br>
+
+	<button class="sembunyi">Sembunyikan</button>
+	<button class="tampil">Tampilkan</button>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+            //menampilkan element gambar
+    	    $('.tampil').click(function(){
+  		 $('.kotak').show();
+               });
+
+
+            //menyembunyikan element gambar
+            $(".sembunyi") .click(function() {
+                    $(".kotak") .hide();
+		});
+
+	});
+    </body>
+</html>
